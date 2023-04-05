@@ -25,19 +25,14 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Budget Tracker <a name="about-project"></a>
-
-> Budget Tracker provides track of daily transaction that helps make wise financial desicions.
-
- ![screenshot](app/assets/images/Screenshot-2023-03-29-181410.png)
- ![screenshot](app/assets/images/Screenshot-2023-03-29-181349.png)
+# 📖 Hello rails react <a name="about-project"></a>
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>Ruby on Rails</summary>
+  <summary>React on Rails</summary>
   <ul>
     <li><a href="https://ruby-doc.org/core-3.1.2/">Ruby</a></li>
   </ul>
@@ -50,23 +45,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Add new categories**
-- **Add new transactions**
-- **See amount of all transactions**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-### 🚀 Live Demo <a name="live-demo"></a>
-
-- [Budget Tracker](https://budget-tracker-azmz.onrender.com)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-### 📽️ Video Presentation <a name="video"></a>
-
-- [Video link](https://www.loom.com/share/1213a4eea2784cfe924a89b3ab8dd3ba)
+- **Add new greetings**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -87,7 +66,7 @@ In order to run this project you need:
 
 Clone this repository by using the command line :
 
-- `git clone https://github.com/FuadNabi/budget-tracker`
+- `git clone https://github.com/FuadNabi/hello-rails-react`
 
 ### Install
 
@@ -129,7 +108,7 @@ To run the project, execute the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/FuadNabi/budget-tracker/issues).
+Feel free to check the [issues page](https://github.com/FuadNabi/hello-rails-react/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -157,4 +136,4 @@ Icons were provided by [Justicon](https://www.flaticon.com/authors/justicon)
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/FuadNabi/budget-tracker/blob/create-readme/LICENSE) licensed.
+This project is [MIT](https://github.com/FuadNabi/hello-rails-react/blob/dev/LICENSE) licensed.

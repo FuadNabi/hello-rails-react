@@ -1,16 +1,23 @@
 import React from 'react';
-import { Link, Route, Routes } from 'react-router-dom';
 import Greeting from './Greeting';
+import {
+    createBrowserRouter,
+    createRoutesFromElements,
+    Route,
+    RouterProvider,
+  } from "react-router-dom";
 
-function App() {
-  return (
-    <div>
-      <Link to="/greeting">View Greetings</Link>
-      <Routes>
-        <Route path="/greeting" element={<Greeting/>} />
-      </Routes>
-    </div>
-  )
+
+
+const router = createBrowserRouter(
+    createRoutesFromElements(
+      <Route path="/" element={<Greeting />}/>
+    )
+  );
+export function App() {
+    return (
+        <React.StrictMode>
+            <RouterProvider router={router} />
+        </React.StrictMode>
+    )   
 }
-
-export default App;

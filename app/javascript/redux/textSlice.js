@@ -5,7 +5,7 @@ import getText from './getText';
 const textSlice = createSlice({
   name: 'text',
   initialState: {
-    data: {},
+    data: '',
   },
   extraReducers: (builder) => {
     builder.addCase(getText.fulfilled, (state, action) => {

@@ -8,11 +8,11 @@ function Greeting (){
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(getText());
-  }, [dispatch]);
+  }, []);
   const message = useSelector((state) => state.text);
   console.log(message)
 
-  return <h1>Welcome {message.data.text}</h1>;
+  return <h1>{ message.data } User</h1>;
 }
 
 export default Greeting

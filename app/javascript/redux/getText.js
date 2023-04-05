@@ -2,7 +2,7 @@ import { createAsyncThunk } from "@reduxjs/toolkit";
 
 const getText = createAsyncThunk("greeting", async () => {
   try {
-    const text = await fetch("http://127.0.0.1:5000/api/greetings");
+    const text = await fetch("http://127.0.0.1:3000/api/greetings");
     const data = await text.json();
     if (data.text) {
       return {
@@ -11,7 +11,7 @@ const getText = createAsyncThunk("greeting", async () => {
       };
     }
   } catch (err) {
-    return { sucess: false, err: err.response.data.text };
+    return { success: false, err: err.response.data.text };
   }
 });
 
